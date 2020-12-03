@@ -55,7 +55,6 @@ seed_value = 0
 
 [node name="WaterArea" type="WaterArea" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -60, 0 )
-viscosity = 2.8
 script = ExtResource( 4 )
 
 [node name="CollisionShape" type="CollisionShape" parent="WaterArea"]
@@ -148,7 +147,7 @@ origin = Vector3( 0, 0, -6 )
 mass = 10000.0
 
 [node name="Plate" type="HydroRigidBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15.6358, -6.38079 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 30, -6.381 )
 mass = 20000.0
 
 [node name="MeshInstance" type="MeshInstance" parent="Plate"]
